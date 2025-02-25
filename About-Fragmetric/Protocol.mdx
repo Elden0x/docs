@@ -1,0 +1,93 @@
+---
+title: "Fragmetric Protocol"
+---
+
+# **What is Restaking and an LRT?**
+
+### Restaking
+
+<img height="963" width="2000" src="https://docs.fragmetric.xyz/content/images/2025/01/1.png" />
+
+Restaking involves staking an already staked asset (like an LST, e.g., jitoSOL) to secure an additional decentralized service. First introduced by EigenLayer, restaking has evolved to support not only Liquid Staking Tokens (LSTs) but also various other tokens as collateral. This approach enables users to earn additional fees from the new service on top of their standard staking rewards.
+
+### Liquid Restaking Token (LRT)
+
+<img height="1044" width="2000" src="https://docs.fragmetric.xyz/content/images/2025/01/2-.png" />
+
+A Liquid Restaking Token, or LRT, represents the assets you have restaked via a specific protocol—such as Fragmetric—and functions similarly to a Liquid Staking Token within the DeFi ecosystem. For instance, fragSOL, the first LRT offered by Fragmetric, generates additional revenues beyond standard Solana validation and MEV rewards.
+
+### **Fragmetric’s Process**
+
+<img height="654" width="2000" src="https://docs.fragmetric.xyz/content/images/2025/01/3.png" />
+
+1. **Deposits**
+
+
+
+
+   When a user deposits **SOL**, **LSTs**, or **other SPL Tokens** into Fragmetric, they receive an equivalent amount of **$fragmetric Asset** (e.g., fragSOL).
+
+2. **Normalized Token Program**
+
+
+
+
+   Developed by Fragmetric, this program maintains precise conversion ratios between deposited assets and minted **$fragmetric Asset**. Users’ combined deposits (SOL, LSTs, and other tokens) form a unified basket that Fragmetric allocates across various restaking protocols and NCN/AVS.
+
+3. **Rewards Distribution**
+
+
+
+
+   Assets are delegated to partner validators who secure NCN/AVS networks. The earnings from these delegations are distributed to **$fragmetric Asset** holders. Fragmetric serves as both a portfolio manager and a liquidity layer between users and restaking protocols.
+
+### **How Are $fragmetric Asset Holders Rewarded?**
+
+<img height="748" width="1080" src="https://docs.fragmetric.xyz/content/images/2025/01/4.png" />
+
+* **Underlying Yields**
+
+
+
+
+  **$fragmetric Asset** inherits the yield from any deposited asset that naturally accrues rewards—such as LSTs (Liquid Staking Tokens) that generate staking and MEV returns. When a user unstakes, they can receive more SOL (or other underlying tokens) than initially deposited, reflecting the average APR of all yield-bearing assets in the basket. Conversely, if a deposited asset does not produce any yield on its own, that portion of the deposit will not generate yield for the corresponding **$fragmetric Asset** tokens.
+
+* **NCN/AVS Rewards**
+
+
+
+
+  Besides standard yields, NCN/AVS protocols can distribute rewards in **SOL**, **native tokens**, or **other assets**. Fragmetric leverages **transfer hook** functionality (unique to Solana) to accurately track and allocate these additional rewards. Each **$fragmetric Asset** transfer updates the user’s eligibility for NCN/AVS revenue, which can be claimed anytime.
+
+**Note:** **$fragmetric Asset** is an OPOS (Only Possible on Solana) LRT; its advanced reward distribution mechanism relies on Solana-specific capabilities not available on Ethereum.
+
+***
+
+### **Using $fragmetric Asset in DeFi**
+
+<img height="1044" width="2000" src="https://docs.fragmetric.xyz/content/images/2025/01/5.png" />
+
+Because **$fragmetric Asset** is a **Liquid Restaking Token**, it can be leveraged throughout DeFi for numerous purposes. For example, **fragSOL** can be used in:
+
+1. **Collateral for Borrowing**
+
+
+
+
+   Use fragSOL as collateral in lending protocols to borrow other assets while still earning staking and restaking rewards.
+
+2. **Liquidity Provision**
+
+
+
+
+   Provide fragSOL as liquidity in DEX pools. This boosts overall liquidity and allows providers to earn transaction fees on top of staking rewards.
+
+3. **Trading on DEXs**
+
+
+
+
+   Trade fragSOL on decentralized exchanges. Users can purchase fragSOL directly without depositing into Fragmetric, and they can sell it any time for immediate access to liquidity.
+
+> **fragSOL** is the first **$fragmetric Asset** introduced by Fragmetric and i*s central to the Fragmetric ecosystem. For more detailed information, please refer to the Protocol Architecture section.*
