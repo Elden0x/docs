@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Fragmetric",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,14 +11,12 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Fragmetric",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "About Fragmetric",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "About-Fragmetric/KeyObjectives"
             ]
           },
           {
